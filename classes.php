@@ -64,7 +64,7 @@
 
     $book2 = new Book("The Hobbit", "J. R. R. Tolkien", 800, 5);
 
-    // echo $book1->title;
+    echo $book1->title;
     echo $book1->longBook();
     echo "<br>";
     echo $book2->longBook();
