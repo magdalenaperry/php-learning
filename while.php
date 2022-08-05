@@ -15,10 +15,19 @@
     <?php 
       $index = 1; 
       while($index <= 5){
-        echo "$index <br>";
+        echo "while loop is running: $index <br>";
         $index++;
+        echo "<hr>";
       }
+    ?>
 
+    <?php 
+      $i = 5;
+      do{
+        echo "do while loop is running: $i <br>";
+        $i++;
+      } while ($i <=6);
+    
     ?>
 
   </body>    
