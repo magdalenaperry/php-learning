@@ -56,6 +56,7 @@
 
     }
   
+    $string = "1faf;'aaf/'";
 
     $book1 = new Book("The Return of the King", "J. R. R. Tolkien", 1200, "dog");
     // $book1->title = "The Return of the King";
